@@ -27,8 +27,6 @@ movie_data.head()
 
 texts = movie_data['review'].copy()
 
-texts
-
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
